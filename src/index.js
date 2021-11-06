@@ -14,7 +14,7 @@ api.index().then((storeGoods) => {
     </main>
   `;
 
-  root.querySelector("#search").addEventListener("keyup", (e) => {
+  document.querySelector("#search").addEventListener("keyup", (e) => {
     console.log(
       storeGoods.filter((storeGood) =>
         storeGood.name.toLowerCase().includes(e.target.value.toLowerCase())
