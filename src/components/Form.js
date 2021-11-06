@@ -5,7 +5,7 @@ export default `<form class="flex flex-col gap-2">
   </div>
 
   <div>
-    <label for="in-stock-only">Only show storeGoods in stock</label>
+    <label for="in-stock-only">Only show storeGoods in stock-</label>
     <input type="checkbox" id="in-stock-only" />
   </div>
 </form>
