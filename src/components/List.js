@@ -3,9 +3,9 @@ export default (storeGoods) => `
 ${storeGoods
   .map(
     (storeGood) =>
-      `<li><span class="${storeGood.stocked ? "text-black" : "text-red-500"}">${
-        storeGood.name
-      }</span> ${storeGood.price}</li>`
+      `<li><span class="${
+        storeGood.stocked ? "text-indigo-700" : "text-red-600"
+      }">${storeGood.name}</span> ${storeGood.price}</li>`
   )
   .join("")}
 </ul>
